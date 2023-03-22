@@ -1,8 +1,7 @@
-//
 //  SceneDelegate.swift
-//  PetFinder
+//  Petfinder
 //
-//  Created by Vladimir Fibe on 26.02.2022.
+//  Created by Va Leroni on 13.02.22.
 //
 
 import UIKit

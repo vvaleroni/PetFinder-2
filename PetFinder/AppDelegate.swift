@@ -1,12 +1,14 @@
 //
 //  AppDelegate.swift
-//  PetFinder
+//  Petfinder
 //
-//  Created by Vladimir Fibe on 26.02.2022.
+//  Created by Va Leroni on 13.02.22.
 //
+
 
 import UIKit
 import CoreData
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+    FirebaseApp.configure()
     return true
   }
 

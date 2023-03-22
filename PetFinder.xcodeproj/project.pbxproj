@@ -7,25 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F49506E27CDAC1600E903DA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49506D27CDAC1600E903DA /* ProfileViewController.swift */; };
 		1F7111C627C99E5B00B5F46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7111C527C99E5B00B5F46D /* AppDelegate.swift */; };
 		1F7111C827C99E5B00B5F46D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7111C727C99E5B00B5F46D /* SceneDelegate.swift */; };
-		1F7111CA27C99E5B00B5F46D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7111C927C99E5B00B5F46D /* ViewController.swift */; };
+		1F7111CA27C99E5B00B5F46D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7111C927C99E5B00B5F46D /* MainViewController.swift */; };
 		1F7111CD27C99E5B00B5F46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7111CB27C99E5B00B5F46D /* Main.storyboard */; };
 		1F7111D027C99E5B00B5F46D /* PetFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F7111CE27C99E5B00B5F46D /* PetFinder.xcdatamodeld */; };
 		1F7111D227C99E5C00B5F46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7111D127C99E5C00B5F46D /* Assets.xcassets */; };
 		1F7111D527C99E5C00B5F46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7111D327C99E5C00B5F46D /* LaunchScreen.storyboard */; };
+		1FAEE70627DC636100C15890 /* UIStoryboard+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE70527DC636100C15890 /* UIStoryboard+Utils.swift */; };
+		1FAEE70827DC6B5C00C15890 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAEE70727DC6B5C00C15890 /* MapViewController.swift */; };
+		1FBE7F3927CA8874009FE0FA /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE7F3827CA8874009FE0FA /* PetViewController.swift */; };
+		1FCB40FC27CAA1360007C14B /* AddPetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB40FB27CAA1360007C14B /* AddPetTableViewController.swift */; };
+		1FCDB97B27C9A7280042162E /* PetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCDB97A27C9A7280042162E /* PetCell.swift */; };
+		1FEFF09127CC810700771373 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF09027CC810600771373 /* LoginViewController.swift */; };
+		1FEFF09327CC93E400771373 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF09227CC93E400771373 /* SignUpViewController.swift */; };
+		1FEFF09527CC93EF00771373 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF09427CC93EF00771373 /* WelcomeViewController.swift */; };
+		1FEFF09827CC9E3B00771373 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1FEFF09727CC9E3B00771373 /* FirebaseAuth */; };
+		1FEFF09A27CC9E5400771373 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FEFF09927CC9E5400771373 /* GoogleService-Info.plist */; };
+		1FEFF09C27CCC23300771373 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEFF09B27CCC23300771373 /* Utilities.swift */; };
+		1FEFF09F27CCCFC300771373 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1FEFF09E27CCCFC300771373 /* FirebaseFirestore */; };
+		1FF8135C27CE407E00683E77 /* hatiko.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1FF8135B27CE407E00683E77 /* hatiko.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F49506D27CDAC1600E903DA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		1F7111C227C99E5B00B5F46D /* PetFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7111C527C99E5B00B5F46D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F7111C727C99E5B00B5F46D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F7111C927C99E5B00B5F46D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F7111C927C99E5B00B5F46D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1F7111CC27C99E5B00B5F46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F7111CF27C99E5B00B5F46D /* PetFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetFinder.xcdatamodel; sourceTree = "<group>"; };
 		1F7111D127C99E5C00B5F46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F7111D427C99E5C00B5F46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7111D627C99E5C00B5F46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FAEE70527DC636100C15890 /* UIStoryboard+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Utils.swift"; sourceTree = "<group>"; };
+		1FAEE70727DC6B5C00C15890 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1FBE7F3827CA8874009FE0FA /* PetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
+		1FCB40FB27CAA1360007C14B /* AddPetTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetTableViewController.swift; sourceTree = "<group>"; };
+		1FCDB97A27C9A7280042162E /* PetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCell.swift; sourceTree = "<group>"; };
+		1FEFF09027CC810600771373 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1FEFF09227CC93E400771373 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1FEFF09427CC93EF00771373 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1FEFF09927CC9E5400771373 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1FEFF09B27CCC23300771373 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		1FF8135B27CE407E00683E77 /* hatiko.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hatiko.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEFF09827CC9E3B00771373 /* FirebaseAuth in Frameworks */,
+				1FEFF09F27CCCFC300771373 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +72,7 @@
 			children = (
 				1F7111C427C99E5B00B5F46D /* PetFinder */,
 				1F7111C327C99E5B00B5F46D /* Products */,
+				1FEFF09D27CCCFC300771373 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +89,33 @@
 			children = (
 				1F7111C527C99E5B00B5F46D /* AppDelegate.swift */,
 				1F7111C727C99E5B00B5F46D /* SceneDelegate.swift */,
-				1F7111C927C99E5B00B5F46D /* ViewController.swift */,
+				1F7111C927C99E5B00B5F46D /* MainViewController.swift */,
+				1FAEE70727DC6B5C00C15890 /* MapViewController.swift */,
+				1FCDB97A27C9A7280042162E /* PetCell.swift */,
+				1FBE7F3827CA8874009FE0FA /* PetViewController.swift */,
+				1FCB40FB27CAA1360007C14B /* AddPetTableViewController.swift */,
+				1FEFF09027CC810600771373 /* LoginViewController.swift */,
+				1FEFF09227CC93E400771373 /* SignUpViewController.swift */,
+				1FEFF09427CC93EF00771373 /* WelcomeViewController.swift */,
+				1F49506D27CDAC1600E903DA /* ProfileViewController.swift */,
+				1FEFF09B27CCC23300771373 /* Utilities.swift */,
+				1FAEE70527DC636100C15890 /* UIStoryboard+Utils.swift */,
 				1F7111CB27C99E5B00B5F46D /* Main.storyboard */,
 				1F7111D127C99E5C00B5F46D /* Assets.xcassets */,
 				1F7111D327C99E5C00B5F46D /* LaunchScreen.storyboard */,
+				1FF8135B27CE407E00683E77 /* hatiko.mp4 */,
+				1FEFF09927CC9E5400771373 /* GoogleService-Info.plist */,
 				1F7111D627C99E5C00B5F46D /* Info.plist */,
 				1F7111CE27C99E5B00B5F46D /* PetFinder.xcdatamodeld */,
 			);
 			path = PetFinder;
+			sourceTree = "<group>";
+		};
+		1FEFF09D27CCCFC300771373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +134,10 @@
 			dependencies = (
 			);
 			name = PetFinder;
+			packageProductDependencies = (
+				1FEFF09727CC9E3B00771373 /* FirebaseAuth */,
+				1FEFF09E27CCCFC300771373 /* FirebaseFirestore */,
+			);
 			productName = PetFinder;
 			productReference = 1F7111C227C99E5B00B5F46D /* PetFinder.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +166,9 @@
 				Base,
 			);
 			mainGroup = 1F7111B927C99E5B00B5F46D;
+			packageReferences = (
+				1FEFF09627CC9E3B00771373 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1F7111C327C99E5B00B5F46D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F7111D527C99E5C00B5F46D /* LaunchScreen.storyboard in Resources */,
+				1FEFF09A27CC9E5400771373 /* GoogleService-Info.plist in Resources */,
+				1FF8135C27CE407E00683E77 /* hatiko.mp4 in Resources */,
 				1F7111D227C99E5C00B5F46D /* Assets.xcassets in Resources */,
 				1F7111CD27C99E5B00B5F46D /* Main.storyboard in Resources */,
 			);
@@ -141,10 +198,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7111CA27C99E5B00B5F46D /* ViewController.swift in Sources */,
+				1F7111CA27C99E5B00B5F46D /* MainViewController.swift in Sources */,
+				1FEFF09527CC93EF00771373 /* WelcomeViewController.swift in Sources */,
+				1FEFF09C27CCC23300771373 /* Utilities.swift in Sources */,
+				1FCDB97B27C9A7280042162E /* PetCell.swift in Sources */,
+				1FAEE70627DC636100C15890 /* UIStoryboard+Utils.swift in Sources */,
+				1FCB40FC27CAA1360007C14B /* AddPetTableViewController.swift in Sources */,
 				1F7111C627C99E5B00B5F46D /* AppDelegate.swift in Sources */,
+				1F49506E27CDAC1600E903DA /* ProfileViewController.swift in Sources */,
+				1FEFF09127CC810700771373 /* LoginViewController.swift in Sources */,
 				1F7111C827C99E5B00B5F46D /* SceneDelegate.swift in Sources */,
+				1FEFF09327CC93E400771373 /* SignUpViewController.swift in Sources */,
+				1FBE7F3927CA8874009FE0FA /* PetViewController.swift in Sources */,
 				1F7111D027C99E5B00B5F46D /* PetFinder.xcdatamodeld in Sources */,
+				1FAEE70827DC6B5C00C15890 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -293,9 +360,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 723HTEFHBA;
+				DEVELOPMENT_TEAM = 5R2MJZF352;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PetFinder/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Our application needs your permission to write photos to your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,9 +389,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 723HTEFHBA;
+				DEVELOPMENT_TEAM = 5R2MJZF352;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PetFinder/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Our application needs your permission to write photos to your photo library";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -364,6 +433,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1FEFF09627CC9E3B00771373 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1FEFF09727CC9E3B00771373 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FEFF09627CC9E3B00771373 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1FEFF09E27CCCFC300771373 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1FEFF09627CC9E3B00771373 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1F7111CE27C99E5B00B5F46D /* PetFinder.xcdatamodeld */ = {
